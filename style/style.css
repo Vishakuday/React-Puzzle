@@ -1,0 +1,145 @@
+.container{
+    background-color: #23c7e5 !important;
+    height:100vh;
+    padding:0 !important;
+    
+}
+.game-wrapper{
+width:100%;
+margin-top:50px;
+    float:right;
+
+}
+
+
+.grid-wrapper{
+float:left;
+width:70%;
+
+}
+.grid-wrapper ul::after{
+content:"";
+display:block;
+clear:both;
+}
+
+.grid-wrapper li{
+float:left;
+width:22%;
+min-height:80px;
+list-style:none;
+text-align:center;
+font-size:15px;
+    margin:2px;
+    padding-top:27px;
+    border-radius:5%;
+}
+
+
+.number-tile{
+padding:10px;
+border:1px solid white;
+background-color:white;
+color:#696868;
+transition: .5s;
+    font-family: calibri;
+}
+
+.number-tile:hover{
+
+background-color:#dcdcdc;
+
+}
+.blank-tile{
+background-color:#054860;
+    min-height:44px;
+}
+.moves-container{
+float:left;
+width:22%;
+margin-left:10px;
+height:332px;
+background-color:white;
+overflow-y:scroll;
+font-size:13px;
+text-align:center;
+}
+
+.moves-container li{
+list-style:none;
+font-size:12px;
+text-align:justify;
+margin-left:13px;
+    color:#696868;
+    font-family: calibri;
+    
+}
+
+.moves-wrapper{
+    float: left;
+    margin-left: 45px;
+}
+
+.time-wrapper{
+    float: left;
+    margin-left: 62px;
+    clear:right;
+    
+}
+
+.game-wrapper button{
+    position: absolute;
+    top: 520px;
+    background-color:#054860;
+    color:white;
+    padding:5px 15px;
+    min-width:200px;
+}
+.btn-new-game{
+left: 250px;  
+}
+.btn-shuffle{
+left: 500px; 
+}
+.top-section{
+    background-color:#054860;
+    text-align:center;
+    color:white;
+    margin:0;
+    height:80px;
+    padding-top:10px;
+        
+}
+.info-wrapper:after{
+   content:"";
+    display:block;
+    clear:both;
+}
+
+.example-enter {
+  opacity: 0.00;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.moves-container h6{
+    padding-top:10px;
+}
+.game-over-container{
+    width:90%;
+    text-align:center;
+    margin:auto;
+    padding-top:300px;
+}
